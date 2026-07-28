@@ -13,7 +13,7 @@
     <main>
         <div style="text-align:center; margin-bottom:40px;">
             <h1>Lost & Found Portal</h1>
-            <p>Helping students <span id="typed-text" class="typed-text"></span><span class="typed-cursor">|</span></p>
+            <p>Helping students reconnect with their lost belongings.</p>
         </div>
 
         <div class="grid">
@@ -41,35 +41,5 @@
     </main>
 
     <?php include 'includes/footer.php'; ?>
-
-    <script>
-    // Typewriter effect: types a phrase, backspaces it, then types the next one
-    (function () {
-        const phrases = [
-            "reconnect with lost belongings.",
-            "find what they lost.",
-            "recover items quickly & safely."
-        ];
-        const el = document.getElementById('typed-text');
-        if (!el) return;
-        let phraseIndex = 0, charIndex = 0, deleting = false;
-        function tick() {
-            const current = phrases[phraseIndex];
-            charIndex += deleting ? -1 : 1;
-            el.textContent = current.substring(0, charIndex);
-            let delay = deleting ? 45 : 90;
-            if (!deleting && charIndex === current.length) {
-                delay = 1600;          // pause on the full phrase
-                deleting = true;
-            } else if (deleting && charIndex === 0) {
-                deleting = false;
-                phraseIndex = (phraseIndex + 1) % phrases.length;
-                delay = 400;
-            }
-            setTimeout(tick, delay);
-        }
-        tick();
-    })();
-    </script>
 </body>
 </html>
