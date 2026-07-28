@@ -14,3 +14,7 @@ Desktop.ini
 .DS_Store
 .vscode/
 .idea/
+
+# Git worktree folders (temporary checkouts, must never be committed)
+legacy-wt/
+*-wt/
