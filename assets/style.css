@@ -1,0 +1,81 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+
+body { background-color: #f8fafc; color: #1e293b; line-height: 1.6; }
+
+/* Navigation Bar - Deep Blue Gradient */
+.navbar {
+    background: linear-gradient(90deg, #0f172a 0%, #1e40af 100%);
+    padding: 1.2rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.navbar h1 { color: #ffffff; font-size: 1.6rem; letter-spacing: 1px; }
+.navbar h1 span { color: #f59e0b; } /* Orange/Gold Accent */
+
+/* Navigation Links Visibility */
+.nav-links a {
+    color: #f8fafc !important;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f59e0b !important;
+    background: rgba(255,255,255,0.1);
+    border-radius: 6px;
+}
+
+/* Featured Found Items Section */
+.container { width: 85%; margin: 40px auto; }
+h2.section-title { 
+    text-align: center; 
+    margin-bottom: 30px; 
+    color: #1e3a8a;
+    font-size: 2rem;
+}
+
+/* Item Cards Layout */
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.item-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.item-card:hover { transform: translateY(-5px); }
+
+/* Footer Design */
+.footer {
+    background: #0f172a;
+    color: #94a3b8;
+    padding: 50px 10% 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer b { color: #f59e0b; }
+
+.copyright-text {
+    border-top: 1px solid #1e293b;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 0.85rem;
+}
