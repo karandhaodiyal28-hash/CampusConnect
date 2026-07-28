@@ -1,5 +1,9 @@
 # 🎒 CampusConnect — Lost & Found Portal (Legacy v1)
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=F59E0B&center=true&vCenter=true&width=680&height=55&lines=CampusConnect+-+Legacy+v1;The+original+archived+version;See+the+main+branch+for+the+latest+code" alt="Typing SVG" />
+</p>
+
 > ⚠️ **This is the LEGACY / ORIGINAL version of the project (archived).**
 > For the latest, secure and updated code, switch to the [`main`](https://github.com/karandhaodiyal28-hash/CampusConnect/tree/main) branch.
 
