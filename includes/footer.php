@@ -17,9 +17,6 @@
 
             <div id="paymentDetails" style="display: none; margin-top: 15px; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px; border: 1px dashed #f1c40f;">
                 <p style="margin: 5px 0;"><b>UPI ID:</b> <span style="color: #27ae60;">Karandhaodiyal@upi</span></p> 
-                <p style="font-size: 12px; margin-bottom: 10px;">Scan to support Karan's Project:</p>
-                
-                <img src="assets/myqr.png" alt="Payment QR" style="width: 130px; height: 130px; border: 4px solid white; border-radius: 5px;">
                 
                 <p style="font-size: 11px; margin-top: 10px; font-style: italic; color: #bdc3c7;">
                     "Thank you for your kindness! ❤️"
