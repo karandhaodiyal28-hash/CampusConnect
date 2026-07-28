@@ -1,9 +1,5 @@
 # 🎒 CampusConnect — Lost & Found Portal
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=F59E0B&center=true&vCenter=true&width=650&height=55&lines=CampusConnect+-+Lost+%26+Found+Portal;Helping+students+reconnect+with+lost+belongings;Report.+Claim.+Reconnect." alt="Typing SVG" />
-</p>
-
 A simple, secure **Lost & Found web portal** for college campuses, built with **PHP + MySQL**. Students can report found items with photos, and owners can claim them by verifying their identity with a college ID card. Admins manage everything from a protected dashboard.
 
 > Developed by **[Karan Dhaodiyal](https://github.com/karandhaodiyal28-hash)** — MCA Student
