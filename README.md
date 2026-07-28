@@ -104,6 +104,12 @@ CampusConnect/
 
 ---
 
+## 🕰️ Legacy Version
+
+The original (v1) version of this project is preserved as-is on the [`legacy-v1`](https://github.com/karandhaodiyal28-hash/CampusConnect/tree/legacy-v1) branch for reference. It contains the old code **before** the security hardening and feature updates (DB credentials redacted).
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
