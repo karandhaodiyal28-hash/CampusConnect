@@ -1,0 +1,16 @@
+# Ignore local configuration (contains DB credentials)
+includes/config.php
+
+# Ignore user-uploaded content
+uploads/items/*
+uploads/id_cards/*
+!uploads/items/.gitkeep
+!uploads/id_cards/.gitkeep
+uploads/try.txt
+
+# OS / editor junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
